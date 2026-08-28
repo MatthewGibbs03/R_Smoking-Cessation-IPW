@@ -18,3 +18,8 @@ Baseline characteristics:
 # Methods
 
 Unadjusted and adjusted linear regression models were first fitted, with the adjusted model including age, sex, cigarettes per day, baseline BMI, cardiovascular disease, dementia, and diuretics as covariates. For causal inference, propensity scores were estimated using logistic regression with the same covariates. IPW weights were calculated as 1/PS for quitters and 1/(1-PS) for non-quitters. A survey-weighted linear regression was then fitted using these weights. As a sensitivity analysis, weights were truncated at the 99th percentile to assess the influence of extreme weights. An overlap plot was generated to assess the positivity assumption, which showed substantial overlap in propensity scores between groups with no scores at exactly 0 or 1.
+
+## Visual
+![screenshot](Smoking-1.png)
+![screenshot](Smoking-2.png)
+![screenshot](Propensity-Score-Distribution.png)
