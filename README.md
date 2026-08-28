@@ -21,5 +21,7 @@ Unadjusted and adjusted linear regression models were first fitted, with the adj
 
 ## Visual
 ![screenshot](visualisation/Smoking-1.png)
+
 ![screenshot](visualisation/Smoking-2.png)
+
 ![screenshot](visualisation/Propensity-Score-Distribution.png)
